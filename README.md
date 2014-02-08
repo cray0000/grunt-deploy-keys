@@ -3,6 +3,8 @@
 > Automatically parses package.json and sets ```~/.ssh/id_rsa.pub``` as
 > deploy key for all private bitbucket repositories using Bitbucket API
 
+If `id_rsa.pub` is not present it runs ```ssh-keygen``` to generate one.
+
 ## Requirements
 
 1. It will ask you for login/password to access those private repos so
@@ -34,6 +36,7 @@ grunt.initConfig({
     bitbucket: {
       options: {
         sshKeyPath: '~/.ssh/id_rsa.pub'
+        host: 'ubuntu@192.168.1.1'
       }
     },
   },
@@ -42,8 +45,16 @@ grunt.initConfig({
 
 ### Options
 
+#### options.host
+Type: `String`
+
+Default value: `undefined`
+
+If present will connect to remote host via SSH to grab the key.
+
 #### options.sshKeyPath
 Type: `String`
+
 Default value: `'~/.ssh/id_rsa.pub'`
 
 Path to the public SSH key

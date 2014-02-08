@@ -24,7 +24,9 @@ module.exports = (grunt) ->
       default_options:
         options: {}
       custom_options:
-        options: '~/.ssh/id_rsa.pub'
+        options:
+          sshKeyPath: '~/.ssh/id_rsa.pub'
+          host: 'idg'
 
     nodeunit:
       tests: ['test/*_test.js']
