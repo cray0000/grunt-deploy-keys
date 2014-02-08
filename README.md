@@ -1,7 +1,7 @@
 # grunt-deploy-keys
 
 > Automatically parses package.json and sets ```~/.ssh/id_rsa.pub``` as
-> deploy key for all private bitbucket repositories
+> deploy key for all private bitbucket repositories using Bitbucket API
 
 ## Requirements
 
