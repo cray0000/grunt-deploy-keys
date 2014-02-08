@@ -1,0 +1,48 @@
+{
+  "name": "grunt-deploy-keys",
+  "description": "Parse package.json and set deploy-keys for all private bitbucket repos",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cray0000/grunt-deploy-keys",
+  "author": {
+    "name": "Pavel Zhukov",
+    "email": "cray0000@gmail.com",
+    "url": "http://idecisiongames.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cray0000/grunt-deploy-keys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cray0000/grunt-deploy-keys/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cray0000/grunt-deploy-keys/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "async": "~0.2.10",
+    "superagent": "~0.16.0",
+    "userhome": "~0.1.0",
+    "grunt-prompt": "~0.2.0"
+  }
+}
