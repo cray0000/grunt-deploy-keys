@@ -23,14 +23,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-deploy-keys');
 ```
 
-## The "deploy_keys" task
+## The "deployKeys" task
 
 ### Overview
-In your project's Gruntfile, add a section named `deploy_keys` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `deployKeys` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  deploy_keys: {
+  deployKeys: {
     bitbucket: {
       options: {
         sshKeyPath: '~/.ssh/id_rsa.pub'
