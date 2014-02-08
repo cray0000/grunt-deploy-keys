@@ -1,7 +1,7 @@
 {
   "name": "grunt-deploy-keys",
   "description": "Parse package.json and set deploy-keys for all private bitbucket repos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/cray0000/grunt-deploy-keys",
   "author": {
     "name": "Pavel Zhukov",
