@@ -37,12 +37,18 @@
     "grunt": "~0.4.0"
   },
   "keywords": [
-    "gruntplugin"
+    "bitbucket",
+    "deploy",
+    "git",
+    "keys",
+    "server",
+    "grunt"
   ],
   "dependencies": {
     "async": "~0.2.10",
     "superagent": "~0.16.0",
     "userhome": "~0.1.0",
-    "grunt-prompt": "~0.2.0"
+    "prompt": "~0.2.12",
+    "lodash": "~2.4.1"
   }
 }
